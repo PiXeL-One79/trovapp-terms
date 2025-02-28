@@ -3,120 +3,201 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>TrovApp - Termini di Servizio</title>
+    <title>Termini di Servizio - TrovApp</title>
     <style>
         body {
-            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, sans-serif;
+            font-family: Arial, sans-serif;
             line-height: 1.6;
+            margin: 0;
+            padding: 0;
+            color: #333;
+        }
+        header {
+            background-color: #26A69A;
+            color: white;
+            text-align: center;
+            padding: 1.5rem 0;
+        }
+        .nav {
+            background-color: #f8f8f8;
+            padding: 10px 0;
+            border-bottom: 1px solid #e7e7e7;
+        }
+        .nav-container {
+            max-width: 800px;
+            margin: 0 auto;
+            padding: 0 20px;
+            display: flex;
+            flex-wrap: wrap;
+        }
+        .nav a {
+            margin-right: 20px;
+            color: #26A69A;
+            text-decoration: none;
+            font-weight: 500;
+        }
+        .nav a:hover {
+            text-decoration: underline;
+        }
+        .container {
             max-width: 800px;
             margin: 0 auto;
             padding: 20px;
-            color: #333;
         }
-        h1 {
+        h1, h2, h3 {
             color: #26A69A;
-            margin-bottom: 30px;
-        }
-        h2 {
-            color: #1B4965;
-            margin-top: 30px;
-        }
-        .last-updated {
-            color: #666;
-            font-style: italic;
-            margin-bottom: 30px;
         }
         .section {
             margin-bottom: 30px;
         }
-        ul {
-            padding-left: 20px;
+        .highlight {
+            background-color: #f0f8f7;
+            padding: 15px;
+            border-left: 4px solid #26A69A;
+            margin-bottom: 20px;
         }
-        @media (max-width: 600px) {
-            body {
-                padding: 15px;
-            }
+        a {
+            color: #26A69A;
+            text-decoration: none;
+        }
+        a:hover {
+            text-decoration: underline;
+        }
+        .footer {
+            background-color: #f8f8f8;
+            padding: 20px 0;
+            margin-top: 40px;
+            text-align: center;
+            font-size: 14px;
+            color: #666;
+            border-top: 1px solid #e7e7e7;
+        }
+        .footer p {
+            margin: 5px 0;
+        }
+        .footer a {
+            color: #26A69A;
+            text-decoration: none;
         }
     </style>
 </head>
 <body>
-    <h1>Termini di Servizio di TrovApp</h1>
+    <header>
+        <h1>TrovApp</h1>
+        <p>Termini di Servizio</p>
+    </header>
     
-    <div class="last-updated">Ultimo aggiornamento: 23 Febbraio 2024</div>
-
-    <div class="section">
-        <h2>1. Accettazione dei Termini</h2>
-        <p>Utilizzando TrovApp, accetti i presenti Termini di Servizio. Se non accetti questi termini, non utilizzare l'app.</p>
+    <div class="nav">
+        <div class="nav-container">
+            <a href="https://pixel-one79.github.io/trovapp/">Home</a>
+            <a href="https://pixel-one79.github.io/trovapp-privacy/">Privacy Policy</a>
+            <a href="https://pixel-one79.github.io/trovapp-terms/">Termini di Servizio</a>
+            <a href="https://pixel-one79.github.io/trovapp-privacy/safety-standards.html">Standard di Sicurezza</a>
+            <a href="https://pixel-one79.github.io/trovapp-privacy/account-deletion.html">Cancellazione Account</a>
+        </div>
     </div>
-
-    <div class="section">
-        <h2>2. Descrizione del Servizio</h2>
-        <p>TrovApp è una piattaforma che permette agli utenti di:</p>
-        <ul>
-            <li>Pubblicare annunci di oggetti smarriti</li>
-            <li>Pubblicare annunci di oggetti trovati</li>
-            <li>Mettersi in contatto con altri utenti</li>
-            <li>Facilitare il recupero di oggetti smarriti</li>
-        </ul>
+    
+    <div class="container">
+        <div class="highlight">
+            <p><strong>Ultimo aggiornamento:</strong> 28 Febbraio 2024</p>
+            <p>Ti preghiamo di leggere attentamente i seguenti Termini di Servizio prima di utilizzare l'applicazione TrovApp. L'utilizzo dell'app implica l'accettazione di questi termini.</p>
+        </div>
+        
+        <div class="section">
+            <h2>Accettazione dei termini</h2>
+            <p>Utilizzando TrovApp, accetti questi Termini di Servizio. Se non accetti questi termini, non utilizzare l'app.</p>
+        </div>
+        
+        <div class="section">
+            <h2>Descrizione del servizio</h2>
+            <p>TrovApp è una piattaforma che permette agli utenti di:</p>
+            <ul>
+                <li>Pubblicare annunci di oggetti smarriti</li>
+                <li>Pubblicare annunci di oggetti trovati</li>
+                <li>Mettersi in contatto con altri utenti</li>
+                <li>Facilitare il recupero di oggetti smarriti</li>
+            </ul>
+        </div>
+        
+        <div class="section">
+            <h2>Registrazione</h2>
+            <p>Per utilizzare alcune funzionalità dell'app, devi registrarti fornendo informazioni accurate e complete. Sei responsabile della sicurezza del tuo account e delle attività che vi si svolgono.</p>
+            <p>La registrazione può avvenire utilizzando il tuo account Google tramite OAuth, il che ti permette di accedere all'app senza dover creare nuove credenziali.</p>
+        </div>
+        
+        <div class="section">
+            <h2>Regole di condotta</h2>
+            <p>Gli utenti devono:</p>
+            <ul>
+                <li>Fornire informazioni veritiere</li>
+                <li>Non pubblicare contenuti illeciti o offensivi</li>
+                <li>Non utilizzare l'app per scopi fraudolenti</li>
+                <li>Rispettare la privacy degli altri utenti</li>
+                <li>Non utilizzare l'app per spam o pubblicità non autorizzata</li>
+            </ul>
+        </div>
+        
+        <div class="section">
+            <h2>Contenuti degli utenti</h2>
+            <p>Pubblicando contenuti sull'app, garantisci di averne il diritto e concedi a TrovApp una licenza non esclusiva per utilizzarli ai fini del servizio.</p>
+        </div>
+        
+        <div class="section">
+            <h2>Oggetti smarriti e trovati</h2>
+            <p>TrovApp non garantisce il recupero degli oggetti smarriti. Gli utenti sono responsabili della verifica dell'identità delle persone con cui entrano in contatto e della legittima proprietà degli oggetti.</p>
+        </div>
+        
+        <div class="section">
+            <h2>Limitazione di responsabilità</h2>
+            <p>TrovApp non è responsabile per:</p>
+            <ul>
+                <li>Contenuti pubblicati dagli utenti</li>
+                <li>Comportamenti degli utenti</li>
+                <li>Mancato recupero di oggetti</li>
+                <li>Danni diretti o indiretti derivanti dall'uso dell'app</li>
+            </ul>
+        </div>
+        
+        <div class="section">
+            <h2>Utilizzo dei dati Google</h2>
+            <p>Quando accedi a TrovApp tramite il tuo account Google, trattiamo i tuoi dati nel rispetto delle normative sulla privacy e in conformità con le linee guida di Google. Utilizziamo questi dati esclusivamente per:</p>
+            <ul>
+                <li>Autenticare la tua identità</li>
+                <li>Creare e gestire il tuo profilo TrovApp</li>
+                <li>Personalizzare la tua esperienza nell'app</li>
+            </ul>
+            <p>Per maggiori dettagli, consulta la nostra <a href="https://pixel-one79.github.io/trovapp-privacy/">Privacy Policy</a>.</p>
+        </div>
+        
+        <div class="section">
+            <h2>Modifiche al servizio</h2>
+            <p>TrovApp si riserva il diritto di modificare o interrompere il servizio in qualsiasi momento, con o senza preavviso.</p>
+        </div>
+        
+        <div class="section">
+            <h2>Modifiche ai termini</h2>
+            <p>Questi termini possono essere modificati in qualsiasi momento. Le modifiche saranno effettive dopo la pubblicazione sull'app. L'uso continuato dell'app costituisce accettazione dei nuovi termini.</p>
+        </div>
+        
+        <div class="section">
+            <h2>Legge applicabile</h2>
+            <p>Questi termini sono regolati dalla legge italiana. Qualsiasi controversia sarà di competenza esclusiva del foro di residenza o domicilio dell'utente.</p>
+        </div>
+        
+        <div class="section">
+            <h2>Contatti</h2>
+            <p>Per qualsiasi domanda sui Termini di Servizio, contattaci a:</p>
+            <p>Email: <a href="mailto:developer.pixel.app@gmail.com">developer.pixel.app@gmail.com</a></p>
+        </div>
     </div>
-
-    <div class="section">
-        <h2>3. Registrazione e Account</h2>
-        <p>Per utilizzare alcune funzionalità dell'app, devi registrarti fornendo informazioni accurate e complete. Sei responsabile della sicurezza del tuo account e delle attività che vi si svolgono.</p>
-    </div>
-
-    <div class="section">
-        <h2>4. Regole di Condotta</h2>
-        <p>Gli utenti devono:</p>
-        <ul>
-            <li>Fornire informazioni veritiere</li>
-            <li>Non pubblicare contenuti illeciti o offensivi</li>
-            <li>Non utilizzare l'app per scopi fraudolenti</li>
-            <li>Rispettare la privacy degli altri utenti</li>
-            <li>Non utilizzare l'app per spam o pubblicità non autorizzata</li>
-        </ul>
-    </div>
-
-    <div class="section">
-        <h2>5. Contenuti degli Utenti</h2>
-        <p>Pubblicando contenuti sull'app, garantisci di averne il diritto e concedi a TrovApp una licenza non esclusiva per utilizzarli ai fini del servizio.</p>
-    </div>
-
-    <div class="section">
-        <h2>6. Oggetti Smarriti e Trovati</h2>
-        <p>TrovApp non garantisce il recupero degli oggetti smarriti. Gli utenti sono responsabili della verifica dell'identità delle persone con cui entrano in contatto e della legittima proprietà degli oggetti.</p>
-    </div>
-
-    <div class="section">
-        <h2>7. Limitazione di Responsabilità</h2>
-        <p>TrovApp non è responsabile per:</p>
-        <ul>
-            <li>Contenuti pubblicati dagli utenti</li>
-            <li>Comportamenti degli utenti</li>
-            <li>Mancato recupero di oggetti</li>
-            <li>Danni diretti o indiretti derivanti dall'uso dell'app</li>
-        </ul>
-    </div>
-
-    <div class="section">
-        <h2>8. Modifiche al Servizio</h2>
-        <p>TrovApp si riserva il diritto di modificare o interrompere il servizio in qualsiasi momento, con o senza preavviso.</p>
-    </div>
-
-    <div class="section">
-        <h2>9. Modifiche ai Termini</h2>
-        <p>Questi termini possono essere modificati in qualsiasi momento. Le modifiche saranno effettive dopo la pubblicazione sull'app. L'uso continuato dell'app costituisce accettazione dei nuovi termini.</p>
-    </div>
-
-    <div class="section">
-        <h2>10. Legge Applicabile</h2>
-        <p>Questi termini sono regolati dalla legge italiana. Qualsiasi controversia sarà di competenza esclusiva del foro di residenza o domicilio dell'utente.</p>
-    </div>
-
-    <div class="section">
-        <h2>11. Contatti</h2>
-        <p>Per qualsiasi domanda sui Termini di Servizio, contattaci a:<br>
-        Email: developer.pixel.app@gmail.com</p>
+    
+    <div class="footer">
+        <p>© 2024 TrovApp. Tutti i diritti riservati.</p>
+        <p>
+            <a href="https://pixel-one79.github.io/trovapp/">Home</a> | 
+            <a href="https://pixel-one79.github.io/trovapp-privacy/">Privacy Policy</a> | 
+            <a href="https://pixel-one79.github.io/trovapp-terms/">Termini di Servizio</a>
+        </p>
     </div>
 </body>
 </html>
